@@ -16,7 +16,7 @@ tags:
 While I was working to solve some deadlock issues in our platform, I found some sql query we are using actually locks much more rows than we expected. I search through internet and couldn't find any good resource to explain what's going on. So I read through the official docs and tries a bunch of different example to find out how to correctly map sql query to the corresponding locks I see in the DB. I would like to share it out in case someone else is looking for details as I did last week.
 
 I will begin with some basics and then cover the unexpected locking behavior from InnoDB. Although I think the following details are very important, if you think you are very familiar with it, you can skip to:
-[InnoBD(MySQL) Lock Gotchas](/blog/2016/innodbmysql-lock-gotchas)
+[InnoBD(MySQL) Lock Gotchas](/2016/05/innodbmysql-lock-gotchas)
 
 Reference [MySQL official doc](http://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html)
 

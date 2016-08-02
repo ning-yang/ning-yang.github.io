@@ -176,32 +176,38 @@ pre {
 
 table {
   color: $gray-darkest;
-  font-size: .9em;
-  text-align: center;
+  font-size: .95em;
+  text-align: left;
   line-height: 40px;
   border-spacing: 0;
-  border: 2px solid darken($primary-color, 10%);
-  width: 90%;
-  margin: 50px auto;
+  border: 1px solid darken($primary-color, 10%);
+  width: 100%;
+  margin: 10px;
 }
 
 thead tr:first-child {
-  background-color: darken($primary-color, 10%);
+  background-color: lighten($primary-color, 10%);
   color: $gray-lightest;
   border: none;
 }
 
-th {font-weight: bold;}
+th {
+  font-weight: bold;
+  min-width: 100px;
+  text-align: center;
+}
 th:first-child, td:first-child {padding: 0 15px 0 20px;}
 
 thead tr:last-child th {
     border-bottom: 1px solid $gray-light;
 }
 
-tbody tr:last-child td {border: none;}
+// tbody tr:last-child td {border: none;}
 tbody td {
     border-bottom: 1px solid $gray-light;
-    font-size: .85em;
+    font-size: .9em;
+    border: 1px solid $primary-color;
+    padding: 5px 10px;
 }
 
 td:last-child {

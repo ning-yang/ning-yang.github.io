@@ -13,7 +13,7 @@ tags:
 - python
 ---
 If you are not verify familiar with InnoDB, please go to the basics first:
-[InnoDB(MySQL) Lock Tutorial](/blog/2016/innodbmysql-lock-tutorial)
+[InnoDB(MySQL) Lock Tutorial](/2016/05/innodbmysql-lock-tutorial)
 
 Let's start by reviewing the following sentence from [MySQL Doc](http://dev.mysql.com/doc/refman/5.7/en/innodb-locks-set.html)
 
