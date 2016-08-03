@@ -5,10 +5,10 @@ date: 2016-08-01 14:35:19
 comments: true
 keywords: "knowledge engine, pyke, expert system, python"
 categories:
-- development
+- architecture
 
 tags:
-- development
+- architecture design
 
 ---
 I have covered some basic idea of knowledge (expert system) engine, including the Pros/Cons here [Knowledge Engine](/2016/06/knowledge-engine-expert-system). 
