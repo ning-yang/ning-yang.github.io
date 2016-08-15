@@ -180,7 +180,7 @@ table {
   text-align: left;
   line-height: 40px;
   border-spacing: 0;
-  border: 1px solid darken($primary-color, 10%);
+  border: 1px solid darken($gray, 10%);
   width: 100%;
   margin: 10px;
 }
@@ -194,20 +194,26 @@ thead tr:first-child {
 th {
   font-weight: bold;
   min-width: 100px;
-  text-align: center;
+  padding: 5px;
 }
 th:first-child, td:first-child {padding: 0 15px 0 20px;}
-
-thead tr:last-child th {
-    border-bottom: 1px solid $gray-light;
-}
 
 // tbody tr:last-child td {border: none;}
 tbody td {
     border-bottom: 1px solid $gray-light;
     font-size: .9em;
-    border: 1px solid $primary-color;
+    border: 1px solid $gray;
     padding: 5px 10px;
+}
+
+table tr {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+table tr:nth-child(2n) {
+    background-color: $gray-lightest;
 }
 
 td:last-child {
