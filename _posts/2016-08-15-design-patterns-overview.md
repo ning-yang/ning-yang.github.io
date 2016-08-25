@@ -16,7 +16,7 @@ Starting learning design patterns by reading book [Design Patterns - Elements of
 
 I will put what I've learned here and today is the overview tables of all the patterns in the book.
 
-
+There is a collection of good examples in Python, which could be founded here: [python-patterns](https://github.com/faif/python-patterns)
 
 | Purpose    | Design Pattern          | Scope        | Aspects That Can Vary                    |
 | ---------- | ----------------------- | ------------ | ---------------------------------------- |
