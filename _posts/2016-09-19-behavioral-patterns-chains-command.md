@@ -53,7 +53,7 @@ When a request comes, chain the receiving objects and pass the request along the
 
   - initiates the request to ConcreteHandler object 
 
-![chain_of_responsibility](/assets/images/change_of_responsibility.jpg)
+![chain_of_responsibility](/assets/images/chain_of_responsibility.jpg)
 
 ### Example
 
