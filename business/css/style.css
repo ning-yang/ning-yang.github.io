@@ -13,7 +13,7 @@ Licence under Creative Commons Attribution 3.0
 ul {
     list-style: none;
 }
-
+/*  */
 .figure {
     margin: 0px;
 }
@@ -56,7 +56,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    color: #333;
     margin: 0;
 }
 
@@ -76,6 +76,10 @@ h3 {
     color: #222222;
     font-size: 18px;
     margin: 0 0 5px 0;
+}
+
+h4 {
+    color: #888888;
 }
 
 h6 {
@@ -657,7 +661,7 @@ img {
 /* About Us
 --------------------------- */
 .aboutUs-container {
-background-image: url(../img/lap.png);
+background-image: url(../img/wuye.png);
 }
 .aboutUs-container {
 background-repeat: no-repeat;
