@@ -54,7 +54,7 @@ a, a:hover, a:active {
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     color: #333;
     margin: 0;
@@ -683,6 +683,10 @@ background-position-y: 70px;
 	color: #1a1a1a;
 }
 
+.about-us .detail{
+    background-color: #ffffff;
+}
+
 #about-us .read-more:hover{
 	background-color: #e74c3c;
 	border: 1px solid #e74c3c;
@@ -875,7 +879,7 @@ margin-bottom: 5px;
 
 .contact_section h2 {
     font-size: 40px;
-    color: #ffffff;
+    /* color: #ffffff; */
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
@@ -964,7 +968,7 @@ margin-bottom: 5px;
     line-height: 28px;
     display: block;
     font-size: 16px;
-    color: #ffffff;
+    /* color: #ffffff; */
     margin: 0 0 30px;
 }
 
