@@ -251,26 +251,31 @@ p {
 }
 
 .top_left_cont h1 {
-    font-size: 50px;
-    color: #E85C63;
+    font-size: 60px;
+    color: #DB4437;
     line-height: 52px;
-    margin: 0 0 26px 0;
     text-align: center;
-    font-weight: 800;
+    font-weight: bolder;
+    /* text-shadow: 0px 0px 10px rgb(70, 70, 70); */
+    text-shadow: 1px 1px 5px yellow,
+    2px 2px 5px orange,
+    3px 3px 5px orangered,
+    5px 5px 5px red;
 }
 
 .top_left_cont h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: #FFF;
     line-height: 52px;
     margin: 0 0 26px 0;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     text-align: center;
+    text-shadow: 3px 3px 10px white;
 }
 
 .top_left_cont h2 strong {
     font-weight: 700;
-	color:#3498db;
+	color:#4285F4;
 }
 
 .top_left_cont p {
